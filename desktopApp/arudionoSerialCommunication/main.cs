@@ -135,17 +135,17 @@ namespace arudionoSerialCommunication
                 speedLabel.Invoke(new MethodInvoker(delegate
                 {
                     float speed = m.ReadFloat("Omsi.exe+0x004614FC,0x428");
-                    if(speed < 80)
+                    if(speed < 120)
                     {
                         speedLabel.Text = Math.Round(speed).ToString();
                         if (serialPort1.IsOpen)
                         {
-                            serialPort1.Write(Math.Round(map(speed, 0, 85, 180, 0)).ToString());
+                            serialPort1.Write(Math.Round(speed).ToString());
                         }
                     }
                     else
                     {
-                        speedLabel.Text = "viac ako 80 " + speed.ToString();
+                        speedLabel.Text = "viac ako 120 " + speed.ToString();
                     }
                 }));
             }
