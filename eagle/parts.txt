@@ -1,0 +1,5 @@
+https://sk.farnell.com/microchip/mcp23017-e-sp/ic-io-expander-16bit-i2c-28dip/dp/1332088
+https://sk.farnell.com/wago/233-516/tb-wire-to-brd-16pos-20awg/dp/1777103
+https://sk.farnell.com/wago/233-504/terminal-block-wire-to-brd-4pos/dp/1777098
+https://sk.farnell.com/wago/233-508/terminal-block-wire-to-brd-8pos/dp/1777101
+https://sk.farnell.com/harwin/m20-7821746/conn-rcpt-17pos-1row-2-54mm/dp/3755878
