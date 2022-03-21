@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "arudionoSerialCommunication", "arudionoSerialCommunication\arudionoSerialCommunication.csproj", "{89AEFB59-7BD8-4387-8E06-BCCD50F98A4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89AEFB59-7BD8-4387-8E06-BCCD50F98A4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89AEFB59-7BD8-4387-8E06-BCCD50F98A4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89AEFB59-7BD8-4387-8E06-BCCD50F98A4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89AEFB59-7BD8-4387-8E06-BCCD50F98A4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8D56182-211A-47C1-8A49-56350D58638F}
+	EndGlobalSection
+EndGlobal
