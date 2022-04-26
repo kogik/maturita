@@ -1,0 +1,14 @@
+C:\Users\jakub\source\repos\maturita\maturita\bin\Debug\maturita.exe.config
+C:\Users\jakub\source\repos\maturita\maturita\bin\Debug\maturita.exe
+C:\Users\jakub\source\repos\maturita\maturita\bin\Debug\maturita.pdb
+C:\Users\jakub\source\repos\maturita\maturita\obj\Debug\maturita.csprojAssemblyReference.cache
+C:\Users\jakub\source\repos\maturita\maturita\obj\Debug\maturita.Form1.resources
+C:\Users\jakub\source\repos\maturita\maturita\obj\Debug\maturita.Properties.Resources.resources
+C:\Users\jakub\source\repos\maturita\maturita\obj\Debug\maturita.csproj.GenerateResource.cache
+C:\Users\jakub\source\repos\maturita\maturita\obj\Debug\maturita.csproj.CoreCompileInputs.cache
+C:\Users\jakub\source\repos\maturita\maturita\obj\Debug\maturita.exe
+C:\Users\jakub\source\repos\maturita\maturita\obj\Debug\maturita.pdb
+C:\Users\jakub\source\repos\maturita\maturita\bin\Debug\Memory.dll
+C:\Users\jakub\source\repos\maturita\maturita\bin\Debug\Memory.xml
+C:\Users\jakub\source\repos\maturita\maturita\obj\Debug\maturita.settings.resources
+C:\Users\jakub\source\repos\maturita\maturita\obj\Debug\maturita.csproj.CopyComplete

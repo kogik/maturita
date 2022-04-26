@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="maturita.exe" version="1.0.0.0" publicKeyToken="370230769a0412a5" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="maturita" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="maturita.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="maturita.exe" size="19424">
+      <assemblyIdentity name="maturita" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>DiGdjpzBIVdTSTfBiXB3RjrBy3sP7Tci2oJIBPs3blM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Memory.dll" size="46080">
+      <assemblyIdentity name="Memory" version="1.2.23.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>4d8+ehUI44Un24xSjE/buMS00IoO0xiv+7uxFAEouP4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="maturita.exe.config" size="1164">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>yzBlD9aqWbYu8JF42+n4/LHPX2Cm7UxKUFXPs3WOKAw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-J1IN2S7\jakub" issuerKeyHash="dceaec9900e3605d6e9c35853ef86d05a14c6dd2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>IskGoUNJqHviBQELJsaHJoWctdlrjEE6gJWj1b4vvXU=</DigestValue></Reference></SignedInfo><SignatureValue>VUJlvjf3+MbY0dmXmHCmseavZJGwC0GV4HUqEjtZZ7g0b0+JgrYlUvFwG/Sn0RtTOaQGdCu/MrJdgi0QZ02uOTCQnElTiAntNPR1PI7ULgGwWYz73K8ccZ1tiAbzmFTSo3i9HS5rrjpQdvyJdoByNprIzyXGSQo3B97wFwJMK3Q=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>s2cGbRmZ6WLO39x61ZdblSRpougsVBTtqPPmx/n/nmjzvaNLERTRdrXzlu1e9GokLnwn4fU16o+PjCqs+5v5mmuiYohFhvBaOcb7JtejZbSO4YUEPKiCF+6BTyrMya7z1zPGFKW3G0VfW+Cvxz362XOYs8YZJThqLOZbHqbZtpE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="75bd2fbed5a395803a418c6bd9b59c852687c6260b0105e27ba84943a106c922" Description="" Url=""><as:assemblyIdentity name="maturita.exe" version="1.0.0.0" publicKeyToken="370230769a0412a5" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-J1IN2S7\jakub</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>GV0MNMJTyjeGCkGnCTQhGmXm+Lev4CTDZzsED05ayLs=</DigestValue></Reference></SignedInfo><SignatureValue>d1dXnLUqYWVB86WwMX5/3yZ2Re54mq9au38RKQRslZwFhk4MtqF/jGHj+nP0skqomKJ9tVieS8gbFefYQECkwuC9Rpi+ZmBRrLG31j7ZCUwq5Qwd0OllyOuKhJomGgCg6GU1JFqJgR0FPs93nrOkMcY/DST8AxF1khtwVSA4kd8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>s2cGbRmZ6WLO39x61ZdblSRpougsVBTtqPPmx/n/nmjzvaNLERTRdrXzlu1e9GokLnwn4fU16o+PjCqs+5v5mmuiYohFhvBaOcb7JtejZbSO4YUEPKiCF+6BTyrMya7z1zPGFKW3G0VfW+Cvxz362XOYs8YZJThqLOZbHqbZtpE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQT4KewclW5YxASRDvf38zSjANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEoAMQBJAE4AMgBTADcAXABqAGEAawB1AGIwHhcNMjIwMzIwMTkxMTAwWhcNMjMwMzIxMDExMTAwWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEoAMQBJAE4AMgBTADcAXABqAGEAawB1AGIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALNnBm0Zmelizt/cetWXW5UkaaLoLFQU7ajz5sf5/55o872jSxEU0Xa185btXvRqJC58J+H1NeqPj4wqrPub+ZpromKIRYbwWjnG+ybXo2W0juGFBDyoghfugU8qzMmu89czxhSltxtFX1vgr8c9+tlzmLPGGSU4aizmWx6m2baRAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAhNgtWQKmlwSfv1a5iNftPkkLCvO/GuYRaA2doof2W3ZAjp3RytiBSKJ05ityUxG+B3RGUvAC7qwjT/6D1H/P8sts8v2sQdEdVKPSXvWRxE5Q5wIFUI9mEz+xLA+m/xslb1+8emjMdZ4ywHhxD7xRZTE3FB6CX95RAyVNeybZjtA=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
